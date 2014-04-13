@@ -32,7 +32,7 @@ void loop() {
     int redValue = 0;
     int greenValue = 0;
     int blueValue = 0;
-
+    
     int i = 0;
     int length = COLOR_COUNT;
     for (; i < length; i++) {
@@ -51,3 +51,4 @@ void loop() {
         Serial.println("");
     }
 }
+
