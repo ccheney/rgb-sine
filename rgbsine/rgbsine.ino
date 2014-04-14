@@ -34,8 +34,7 @@ void loop() {
     int blueValue = 0;
     
     int i = 0;
-    int length = COLOR_COUNT;
-    for (; i < length; i++) {
+    for (; i < COLOR_COUNT; i++) {
         redValue = sin(FREQUENCY * i + RED_PHASE) * AMPLITUDE + CENTER;
         greenValue = sin(FREQUENCY * i + GREEN_PHASE) * AMPLITUDE + CENTER;
         blueValue = sin(FREQUENCY * i + BLUE_PHASE) * AMPLITUDE + CENTER;
